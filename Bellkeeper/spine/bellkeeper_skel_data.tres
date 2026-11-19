@@ -1,0 +1,9 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://bellkeeper_battle_data"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://igc5iq8j4yd2" path="res://Bellkeeper/spine/bellkeeper.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://0ogxrnmsu1ye" path="res://Bellkeeper/spine/bellkeeper.spine-json" id="2_skel"]
+
+[resource]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+default_mix = 0.15

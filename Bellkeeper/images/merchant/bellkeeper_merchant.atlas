@@ -1,0 +1,15 @@
+bellkeeper_merchant.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+merchant_body
+  bounds: 6, 6, 556, 618
+merchant_back_bell
+  bounds: 568, 6, 257, 336
+merchant_browsing_arm
+  bounds: 6, 630, 213, 274
+merchant_handbell
+  bounds: 225, 630, 114, 153
+merchant_shadow
+  bounds: 345, 630, 453, 93

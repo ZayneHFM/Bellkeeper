@@ -1,0 +1,23 @@
+bellkeeper.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+body_hunched
+  bounds: 8, 8, 757, 836
+frame_beams
+  bounds: 773, 8, 392, 599
+bell_main_shell
+  bounds: 1173, 8, 359, 405
+arm_left_hang
+  bounds: 1540, 8, 159, 402
+arm_left_strike
+  bounds: 1707, 8, 226, 317
+bell_chimes
+  bounds: 8, 852, 166, 257
+bell_clapper
+  bounds: 182, 852, 128, 218
+ground_shadow
+  bounds: 318, 852, 660, 110
+vfx_sound_ring
+  bounds: 986, 852, 512, 512

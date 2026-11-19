@@ -1,0 +1,14 @@
+﻿{
+  "id": "Bellkeeper",
+  "name": "负钟人 (The Bellkeeper)",
+  "author": "Zayne",
+  "description": "为《杀戮尖塔 2》新增一名黄铜色系原创角色「负钟人」。围绕【余响】跨回合延迟收益、【叩钟】当场兑现、【失声】负重套利与【摸底】牌库底暗箱操作构建卡组（支持简体中文与英文）。",
+  "version": "v0.1.2",
+  "min_game_version": "0.107.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {"id": "BaseLib", "min_version": "3.4.8"}
+  ],
+  "affects_gameplay": true
+}

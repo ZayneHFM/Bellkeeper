@@ -1,0 +1,43 @@
+char_select_bellkeeper_bg.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+01_bg_dark_field
+  bounds: 6, 6, 960, 540
+02_vfx_sound_waves_inner
+  bounds: 972, 6, 530, 531
+03_vfx_sound_waves_outer
+  bounds: 6, 552, 960, 540
+04_vfx_bell_mouth_glow
+  bounds: 972, 552, 744, 540
+05_bg_giant_bell
+  bounds: 6, 1098, 472, 369
+06_back_wood_frame
+  bounds: 484, 1098, 376, 355
+07_back_small_bell
+  bounds: 866, 1098, 144, 200
+08_back_hanging_rope
+  bounds: 1016, 1098, 57, 196
+09_char_torso_and_head_base
+  bounds: 1079, 1098, 524, 491
+10a_cloak_left_hem
+  bounds: 1609, 1098, 139, 229
+10b_cloak_center_tatter
+  bounds: 1754, 1098, 137, 236
+10c_cloak_right_mantle
+  bounds: 6, 1595, 251, 244
+11_char_thick_rope
+  bounds: 263, 1595, 276, 382
+12_char_eyeband
+  bounds: 545, 1595, 176, 118
+13_char_eyeband_tail
+  bounds: 727, 1595, 76, 90
+14a_hair_left_lock
+  bounds: 809, 1595, 102, 143
+14b_hair_top_tuft
+  bounds: 917, 1595, 165, 87
+14c_hair_center_bangs
+  bounds: 1088, 1595, 126, 120
+14d_hair_right_lock
+  bounds: 1220, 1595, 94, 126

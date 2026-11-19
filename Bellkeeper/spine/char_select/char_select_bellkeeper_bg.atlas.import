@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c7axo0avahynt"
+path="res://.godot/imported/char_select_bellkeeper_bg.atlas-58f33f5aeb53954d3be53babe1b10079.spatlas"
+
+[deps]
+
+source_file="res://Bellkeeper/spine/char_select/char_select_bellkeeper_bg.atlas"
+dest_files=["res://.godot/imported/char_select_bellkeeper_bg.atlas-58f33f5aeb53954d3be53babe1b10079.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

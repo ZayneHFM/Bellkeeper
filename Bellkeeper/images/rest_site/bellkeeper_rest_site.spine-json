@@ -1,0 +1,309 @@
+{
+  "skeleton": {
+    "hash": "sts2_bellkeeper_rest_site_v4",
+    "spine": "4.2.43",
+    "x": -960,
+    "y": -540,
+    "width": 1920,
+    "height": 1080
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "rest_torso",
+      "parent": "root",
+      "x": -180,
+      "y": -120,
+      "length": 340,
+      "rotation": 85
+    },
+    {
+      "name": "rest_head",
+      "parent": "rest_torso",
+      "x": 320,
+      "y": -40,
+      "length": 160,
+      "rotation": -15
+    },
+    {
+      "name": "rest_arm_warm",
+      "parent": "rest_torso",
+      "x": 180,
+      "y": -120,
+      "length": 240,
+      "rotation": -75
+    },
+    {
+      "name": "rest_giant_bell",
+      "parent": "rest_torso",
+      "x": 220,
+      "y": 240,
+      "length": 280,
+      "rotation": 35
+    },
+    {
+      "name": "rest_chimes",
+      "parent": "rest_giant_bell",
+      "x": 180,
+      "y": 110,
+      "length": 120,
+      "rotation": -120
+    },
+    {
+      "name": "fire_base",
+      "parent": "root",
+      "x": 450,
+      "y": -325
+    },
+    {
+      "name": "fire_outer_flame",
+      "parent": "fire_base",
+      "x": 0,
+      "y": 0,
+      "length": 360,
+      "rotation": 90
+    },
+    {
+      "name": "fire_inner_core",
+      "parent": "fire_base",
+      "x": 0,
+      "y": 0,
+      "length": 240,
+      "rotation": 90
+    },
+    {
+      "name": "fire_embers",
+      "parent": "fire_base",
+      "x": 0,
+      "y": 220
+    }
+  ],
+  "slots": [
+    {
+      "name": "rest_bg_base",
+      "bone": "root",
+      "attachment": "rest_bg_base"
+    },
+    {
+      "name": "fire_outer_flame",
+      "bone": "root",
+      "attachment": "fire_outer_flame"
+    },
+    {
+      "name": "fire_inner_core",
+      "bone": "root",
+      "attachment": "fire_inner_core"
+    },
+    {
+      "name": "fire_embers",
+      "bone": "root",
+      "attachment": "fire_embers"
+    },
+    {
+      "name": "rest_chimes",
+      "bone": "root",
+      "attachment": "rest_chimes"
+    },
+    {
+      "name": "rest_giant_bell",
+      "bone": "root",
+      "attachment": "rest_giant_bell"
+    },
+    {
+      "name": "rest_torso",
+      "bone": "root",
+      "attachment": "rest_torso"
+    },
+    {
+      "name": "rest_head",
+      "bone": "root",
+      "attachment": "rest_head"
+    },
+    {
+      "name": "rest_arm_warm",
+      "bone": "root",
+      "attachment": "rest_arm_warm"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "rest_bg_base": {
+          "rest_bg_base": {
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "fire_outer_flame": {
+          "fire_outer_flame": {
+            "width": 372,
+            "height": 468
+          }
+        },
+        "fire_inner_core": {
+          "fire_inner_core": {
+            "width": 212,
+            "height": 318
+          }
+        },
+        "fire_embers": {
+          "fire_embers": {
+            "width": 276,
+            "height": 606
+          }
+        },
+        "rest_chimes": {
+          "rest_chimes": {
+            "width": 196,
+            "height": 188
+          }
+        },
+        "rest_giant_bell": {
+          "rest_giant_bell": {
+            "width": 370,
+            "height": 386
+          }
+        },
+        "rest_torso": {
+          "rest_torso": {
+            "width": 582,
+            "height": 636
+          }
+        },
+        "rest_head": {
+          "rest_head": {
+            "width": 278,
+            "height": 294
+          }
+        },
+        "rest_arm_warm": {
+          "rest_arm_warm": {
+            "width": 364,
+            "height": 288
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle": {
+      "bones": {
+        "rest_torso": {
+          "translate": [
+            {
+              "time": 0.0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.0,
+              "x": 2.0,
+              "y": -4.5
+            },
+            {
+              "time": 2.0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "rest_head": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": 0
+            },
+            {
+              "time": 1.0,
+              "value": -2.8
+            },
+            {
+              "time": 2.0,
+              "value": 0
+            }
+          ]
+        },
+        "rest_arm_warm": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": 0
+            },
+            {
+              "time": 1.0,
+              "value": 3.2
+            },
+            {
+              "time": 2.0,
+              "value": 0
+            }
+          ]
+        },
+        "rest_chimes": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": -3.5
+            },
+            {
+              "time": 1.0,
+              "value": 4.5
+            },
+            {
+              "time": 2.0,
+              "value": -3.5
+            }
+          ]
+        },
+        "fire_outer_flame": {
+          "scale": [
+            {
+              "time": 0.0,
+              "x": 1.0,
+              "y": 1.0
+            },
+            {
+              "time": 0.5,
+              "x": 0.96,
+              "y": 1.05
+            },
+            {
+              "time": 1.0,
+              "x": 1.04,
+              "y": 0.97
+            },
+            {
+              "time": 1.5,
+              "x": 0.97,
+              "y": 1.04
+            },
+            {
+              "time": 2.0,
+              "x": 1.0,
+              "y": 1.0
+            }
+          ]
+        },
+        "fire_embers": {
+          "translate": [
+            {
+              "time": 0.0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.0,
+              "x": 8.0,
+              "y": 95.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

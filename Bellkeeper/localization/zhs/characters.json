@@ -1,0 +1,16 @@
+{
+  "BELLKEEPER-BELLKEEPER.title": "负钟人",
+  "BELLKEEPER-BELLKEEPER.titleObject": "负钟人",
+  "BELLKEEPER-BELLKEEPER.description": "盲眼的负钟人背着塌掉钟楼的最后一口钟，要把它送还给造钟的人。他挂上的每一口钟，都要等到下个回合才会响。",
+  "BELLKEEPER-BELLKEEPER.pronounObject": "他",
+  "BELLKEEPER-BELLKEEPER.possessiveAdjective": "他的",
+  "BELLKEEPER-BELLKEEPER.pronounPossessive": "他的",
+  "BELLKEEPER-BELLKEEPER.pronounSubject": "他",
+  "BELLKEEPER-BELLKEEPER.goldMonologue": "每一枚铜钱落袋的声响，钟都记着。",
+  "BELLKEEPER-BELLKEEPER.eventDeathPrevention": "还不能倒下。最后一口钟还没响过。",
+  "BELLKEEPER-BELLKEEPER.aromaPrinciple": "黄铜、残烛的冷烟，还有旧青铜的锈味。",
+  "BELLKEEPER-BELLKEEPER.cardsModifierTitle": "负钟",
+  "BELLKEEPER-BELLKEEPER.cardsModifierDescription": "挂上的钟，要等下个回合才响。",
+  "BELLKEEPER-BELLKEEPER.banter.alive.endTurnPing": "听。",
+  "BELLKEEPER-BELLKEEPER.banter.dead.endTurnPing": "……（只有很轻的铜铃余音）"
+}

@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+uid="uid://0ogxrnmsu1ye"
+path="res://.godot/imported/bellkeeper.spine-json-3f0ed1e14ce29578858cfcb7c62381dd.spjson"
+
+[deps]
+
+source_file="res://Bellkeeper/spine/bellkeeper.spine-json"
+dest_files=["res://.godot/imported/bellkeeper.spine-json-3f0ed1e14ce29578858cfcb7c62381dd.spjson"]
+
+[params]
+

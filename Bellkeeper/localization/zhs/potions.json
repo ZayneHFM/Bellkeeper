@@ -1,0 +1,10 @@
+{
+  "BELLKEEPER-POTION_GUARD.title": "补钟水",
+  "BELLKEEPER-POTION_GUARD.description": "立刻获得 10 层【守御】。",
+
+  "BELLKEEPER-POTION_PURGE.title": "哑药",
+  "BELLKEEPER-POTION_PURGE.description": "移除你身上所有的【哑音】和【负重】。",
+
+  "BELLKEEPER-POTION_HASTE.title": "加速铃",
+  "BELLKEEPER-POTION_HASTE.description": "立刻【叩钟】一次。"
+}

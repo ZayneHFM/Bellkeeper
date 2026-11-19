@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://bellkeeper_select_bg_scene"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://bellkeeper_select_bg_data" path="res://Bellkeeper/spine/char_select/char_select_bellkeeper_bg_data.tres" id="1_data"]
+[ext_resource type="Script" path="res://BellkeeperCode/Character/BellkeeperSelectBgPlayer.cs" id="2_player"]
+
+[node name="BellkeeperSelectBg" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BgBackdrop" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.121569, 0.0784314, 0.0392157, 1)
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(1, 1)
+skeleton_data_res = ExtResource("1_data")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+
+[node name="BgAnimationPlayer" type="Node" parent="SpineSprite"]
+script = ExtResource("2_player")

@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://hbfladr53vma"
+path="res://.godot/imported/bellkeeper_merchant.atlas-64151c87b6c0e03e59c2f7ae776d6633.spatlas"
+
+[deps]
+
+source_file="res://Bellkeeper/images/merchant/bellkeeper_merchant.atlas"
+dest_files=["res://.godot/imported/bellkeeper_merchant.atlas-64151c87b6c0e03e59c2f7ae776d6633.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

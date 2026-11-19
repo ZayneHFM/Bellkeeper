@@ -1,0 +1,768 @@
+{
+ "skeleton": {
+  "hash": "sts2_bellkeeper_v4_4243",
+  "spine": "4.2.43",
+  "x": -480,
+  "y": -40,
+  "width": 960,
+  "height": 980,
+  "images": "./images/",
+  "audio": ""
+ },
+ "bones": [
+  {
+   "name": "root"
+  },
+  {
+   "name": "ground_shadow",
+   "parent": "root",
+   "x": 0,
+   "y": 0
+  },
+  {
+   "name": "hip",
+   "parent": "root",
+   "x": 15,
+   "y": 240
+  },
+  {
+   "name": "torso",
+   "parent": "hip",
+   "length": 260,
+   "rotation": 68,
+   "x": 0,
+   "y": 0
+  },
+  {
+   "name": "head",
+   "parent": "torso",
+   "length": 110,
+   "rotation": -45,
+   "x": 240,
+   "y": -25
+  },
+  {
+   "name": "staff_pivot",
+   "parent": "torso",
+   "length": 340,
+   "rotation": -155,
+   "x": 200,
+   "y": -95
+  },
+  {
+   "name": "bell_frame",
+   "parent": "torso",
+   "length": 380,
+   "rotation": -12,
+   "x": 90,
+   "y": 85
+  },
+  {
+   "name": "bell_main",
+   "parent": "bell_frame",
+   "length": 230,
+   "rotation": -115,
+   "x": 110.7,
+   "y": 137.9
+  },
+  {
+   "name": "bell_clapper",
+   "parent": "bell_main",
+   "length": 140,
+   "rotation": 5,
+   "x": 175,
+   "y": 0
+  },
+  {
+   "name": "bell_chimes",
+   "parent": "bell_frame",
+   "length": 120,
+   "rotation": -118,
+   "x": 45,
+   "y": 135
+  },
+  {
+   "name": "arm_left",
+   "parent": "torso",
+   "length": 220,
+   "rotation": -158,
+   "x": 165,
+   "y": -15
+  },
+  {
+   "name": "vfx_ring",
+   "parent": "bell_main",
+   "x": 120,
+   "y": 0
+  }
+ ],
+ "slots": [
+  {
+   "name": "ground_shadow",
+   "bone": "ground_shadow",
+   "attachment": "ground_shadow"
+  },
+  {
+   "name": "bell_chimes",
+   "bone": "bell_chimes",
+   "attachment": "bell_chimes"
+  },
+  {
+   "name": "bell_clapper",
+   "bone": "bell_clapper",
+   "attachment": "bell_clapper"
+  },
+  {
+   "name": "frame_beams",
+   "bone": "bell_frame",
+   "attachment": "frame_beams"
+  },
+  {
+   "name": "bell_main_shell",
+   "bone": "bell_main",
+   "attachment": "bell_main_shell"
+  },
+  {
+   "name": "body_hunched",
+   "bone": "torso",
+   "attachment": "body_hunched"
+  },
+  {
+   "name": "arm_left",
+   "bone": "arm_left",
+   "attachment": "arm_left_hang"
+  },
+  {
+   "name": "vfx_sound_ring",
+   "bone": "vfx_ring",
+   "color": "ffffff00",
+   "attachment": "vfx_sound_ring",
+   "blend": "additive"
+  }
+ ],
+ "physics": [
+  {
+   "name": "bell_main_pendulum",
+   "bone": "bell_main",
+   "rotate": 0.65,
+   "inertia": 1.15,
+   "strength": 35,
+   "damping": 0.86,
+   "massInverse": 0.4,
+   "wind": 0,
+   "gravity": -15
+  },
+  {
+   "name": "bell_clapper_lag",
+   "bone": "bell_clapper",
+   "rotate": 0.9,
+   "inertia": 1.35,
+   "strength": 25,
+   "damping": 0.82,
+   "massInverse": 0.7,
+   "wind": 0,
+   "gravity": -20
+  },
+  {
+   "name": "bell_chimes_sway",
+   "bone": "bell_chimes",
+   "rotate": 0.85,
+   "inertia": 0.95,
+   "strength": 45,
+   "damping": 0.78,
+   "massInverse": 1.2,
+   "wind": 0,
+   "gravity": -10
+  }
+ ],
+ "skins": [
+  {
+   "name": "default",
+   "attachments": {
+    "ground_shadow": {
+     "ground_shadow": {
+      "x": 0,
+      "y": 5,
+      "width": 620,
+      "height": 120
+     }
+    },
+    "frame_beams": {
+     "frame_beams": {
+      "x": 140,
+      "y": 40,
+      "rotation": -56,
+      "width": 459,
+      "height": 529
+     }
+    },
+    "bell_main_shell": {
+     "bell_main_shell": {
+      "x": 115,
+      "y": 10,
+      "rotation": 59,
+      "width": 377,
+      "height": 403
+     }
+    },
+    "bell_clapper": {
+     "bell_clapper": {
+      "x": 95,
+      "y": 0,
+      "rotation": 145,
+      "width": 62.150000000000006,
+      "height": 194.15
+     }
+    },
+    "bell_chimes": {
+     "bell_chimes": {
+      "x": 65,
+      "y": 0,
+      "rotation": 62,
+      "width": 225,
+      "height": 265
+     }
+    },
+    "body_hunched": {
+     "body_hunched": {
+      "x": 125,
+      "y": -20,
+      "rotation": -68,
+      "width": 737,
+      "height": 817
+     }
+    },
+    "arm_left": {
+     "arm_left_hang": {
+      "x": 110,
+      "y": 0,
+      "rotation": 90,
+      "width": 169,
+      "height": 491
+     },
+     "arm_left_strike": {
+      "x": 95,
+      "y": 25,
+      "rotation": 45,
+      "width": 246,
+      "height": 310
+     }
+    },
+    "vfx_sound_ring": {
+     "vfx_sound_ring": {
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 512
+     }
+    }
+   }
+  }
+ ],
+ "animations": {
+  "idle_loop": {
+   "bones": {
+    "hip": {
+     "translate": [
+      {
+       "time": 0.0,
+       "x": 0,
+       "y": 0,
+       "curve": "stepped"
+      },
+      {
+       "time": 2.4,
+       "x": 2,
+       "y": -8
+      },
+      {
+       "time": 3.4,
+       "x": -1,
+       "y": 4
+      },
+      {
+       "time": 4.5,
+       "x": 0,
+       "y": 0
+      }
+     ]
+    },
+    "torso": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 2.4,
+       "value": -3.2
+      },
+      {
+       "time": 3.4,
+       "value": 1.6
+      },
+      {
+       "time": 4.5,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_frame": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 2.6,
+       "value": -2.4
+      },
+      {
+       "time": 3.6,
+       "value": 1.8
+      },
+      {
+       "time": 4.5,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_main": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 2.8,
+       "value": -4.5
+      },
+      {
+       "time": 3.8,
+       "value": 3.2
+      },
+      {
+       "time": 4.5,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_clapper": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 3.0,
+       "value": -8.0
+      },
+      {
+       "time": 4.0,
+       "value": 6.5
+      },
+      {
+       "time": 4.5,
+       "value": 0.0
+      }
+     ]
+    },
+    "arm_left": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 2.5,
+       "value": 3.5
+      },
+      {
+       "time": 3.5,
+       "value": -2.0
+      },
+      {
+       "time": 4.5,
+       "value": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "attack": {
+   "bones": {
+    "hip": {
+     "translate": [
+      {
+       "time": 0.0,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.25,
+       "x": -18,
+       "y": 6
+      },
+      {
+       "time": 0.45,
+       "x": 65,
+       "y": -18
+      },
+      {
+       "time": 0.7,
+       "x": 42,
+       "y": -10
+      },
+      {
+       "time": 1.1,
+       "x": 0,
+       "y": 0
+      }
+     ]
+    },
+    "torso": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.25,
+       "value": 8.0
+      },
+      {
+       "time": 0.45,
+       "value": -16.5
+      },
+      {
+       "time": 0.7,
+       "value": -9.0
+      },
+      {
+       "time": 1.1,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_main": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.3,
+       "value": 12.0
+      },
+      {
+       "time": 0.52,
+       "value": -22.0
+      },
+      {
+       "time": 0.8,
+       "value": 9.5
+      },
+      {
+       "time": 1.1,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_clapper": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.55,
+       "value": -28.0
+      },
+      {
+       "time": 0.85,
+       "value": 16.0
+      },
+      {
+       "time": 1.1,
+       "value": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "cast": {
+   "slots": {
+    "arm_left": {
+     "attachment": [
+      {
+       "time": 0.0,
+       "name": "arm_left_hang"
+      },
+      {
+       "time": 0.2,
+       "name": "arm_left_strike"
+      },
+      {
+       "time": 0.85,
+       "name": "arm_left_hang"
+      }
+     ]
+    },
+    "vfx_sound_ring": {
+     "rgba": [
+      {
+       "time": 0.0,
+       "color": "ffffff00"
+      },
+      {
+       "time": 0.3,
+       "color": "e5b842ee"
+      },
+      {
+       "time": 0.95,
+       "color": "e5b84200"
+      }
+     ]
+    }
+   },
+   "bones": {
+    "arm_left": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.28,
+       "value": -48.0
+      },
+      {
+       "time": 0.55,
+       "value": -42.0
+      },
+      {
+       "time": 0.95,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_main": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.3,
+       "value": 9.0
+      },
+      {
+       "time": 0.45,
+       "value": -6.0
+      },
+      {
+       "time": 0.6,
+       "value": 3.0
+      },
+      {
+       "time": 0.95,
+       "value": 0.0
+      }
+     ]
+    },
+    "vfx_ring": {
+     "scale": [
+      {
+       "time": 0.25,
+       "x": 0.35,
+       "y": 0.35
+      },
+      {
+       "time": 0.95,
+       "x": 1.85,
+       "y": 1.85
+      }
+     ],
+     "translate": [
+      {
+       "time": 0.25,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.95,
+       "x": 20,
+       "y": 140
+      }
+     ]
+    }
+   }
+  },
+  "hurt": {
+   "bones": {
+    "hip": {
+     "translate": [
+      {
+       "time": 0.0,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.12,
+       "x": -38,
+       "y": -14
+      },
+      {
+       "time": 0.35,
+       "x": -22,
+       "y": -8
+      },
+      {
+       "time": 0.65,
+       "x": 0,
+       "y": 0
+      }
+     ]
+    },
+    "torso": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.15,
+       "value": -9.5
+      },
+      {
+       "time": 0.65,
+       "value": 0.0
+      }
+     ]
+    },
+    "arm_left": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.15,
+       "value": -35.0
+      },
+      {
+       "time": 0.65,
+       "value": 0.0
+      }
+     ]
+    },
+    "bell_main": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.18,
+       "value": 15.0
+      },
+      {
+       "time": 0.4,
+       "value": -10.0
+      },
+      {
+       "time": 0.65,
+       "value": 0.0
+      }
+     ]
+    }
+   }
+  },
+  "die": {
+   "bones": {
+    "bell_frame": {
+     "translate": [
+      {
+       "time": 0.0,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.35,
+       "x": -40,
+       "y": -190
+      },
+      {
+       "time": 0.5,
+       "x": -45,
+       "y": -182
+      },
+      {
+       "time": 1.2,
+       "x": -45,
+       "y": -185
+      }
+     ],
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.35,
+       "value": 38.0
+      },
+      {
+       "time": 1.2,
+       "value": 38.0
+      }
+     ]
+    },
+    "hip": {
+     "translate": [
+      {
+       "time": 0.0,
+       "x": 0,
+       "y": 0
+      },
+      {
+       "time": 0.25,
+       "x": 10,
+       "y": -30
+      },
+      {
+       "time": 0.65,
+       "x": 55,
+       "y": -165
+      },
+      {
+       "time": 1.2,
+       "x": 55,
+       "y": -165
+      }
+     ]
+    },
+    "torso": {
+     "rotate": [
+      {
+       "time": 0.0,
+       "value": 0.0
+      },
+      {
+       "time": 0.25,
+       "value": -12.0
+      },
+      {
+       "time": 0.65,
+       "value": -62.0
+      },
+      {
+       "time": 1.2,
+       "value": -62.0
+      }
+     ]
+    }
+   }
+  }
+ }
+}

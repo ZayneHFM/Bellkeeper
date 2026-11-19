@@ -1,0 +1,23 @@
+bellkeeper_rest_site.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+rest_bg_base
+  bounds: 6, 6, 960, 540
+fire_outer_flame
+  bounds: 972, 6, 186, 234
+fire_inner_core
+  bounds: 1164, 6, 106, 159
+fire_embers
+  bounds: 1276, 6, 138, 303
+rest_chimes
+  bounds: 1420, 6, 98, 94
+rest_giant_bell
+  bounds: 1524, 6, 185, 193
+rest_torso
+  bounds: 1715, 6, 291, 318
+rest_head
+  bounds: 6, 552, 139, 147
+rest_arm_warm
+  bounds: 151, 552, 182, 144

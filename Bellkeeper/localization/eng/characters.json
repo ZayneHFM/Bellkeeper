@@ -1,0 +1,16 @@
+{
+  "BELLKEEPER-BELLKEEPER.title": "The Bellkeeper",
+  "BELLKEEPER-BELLKEEPER.titleObject": "the Bellkeeper",
+  "BELLKEEPER-BELLKEEPER.description": "A blind porter carrying the last cracked brass bell from a collapsed belfry, climbing the Spire to return it to its maker.",
+  "BELLKEEPER-BELLKEEPER.pronounObject": "him",
+  "BELLKEEPER-BELLKEEPER.possessiveAdjective": "his",
+  "BELLKEEPER-BELLKEEPER.pronounPossessive": "his",
+  "BELLKEEPER-BELLKEEPER.pronounSubject": "he",
+  "BELLKEEPER-BELLKEEPER.goldMonologue": "Every coin that drops into the pouch leaves an echo the bronze remembers.",
+  "BELLKEEPER-BELLKEEPER.eventDeathPrevention": "Cannot fall here... the last bell has not yet reached the top.",
+  "BELLKEEPER-BELLKEEPER.aromaPrinciple": "Warm brass, cold tallow smoke, and the sharp tang of ancient verdigris.",
+  "BELLKEEPER-BELLKEEPER.cardsModifierTitle": "Bellkeeper Card Pool",
+  "BELLKEEPER-BELLKEEPER.cardsModifierDescription": "Bellkeeper cards may appear in rewards and shops.",
+  "BELLKEEPER-BELLKEEPER.banter.alive.endTurnPing": "Listen... the chime comes due.",
+  "BELLKEEPER-BELLKEEPER.banter.dead.endTurnPing": "...(only a faint, dying hum of brass)"
+}
